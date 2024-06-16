@@ -52,7 +52,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Safe and Reactive Planning with Interactive Distance Fields</h1>
+            <h1 class="title is-1 publication-title">Leveraging Interactive Distance Fields for Safe and Smooth Reactive Planning</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -172,7 +172,7 @@
       <h2 class="title is-3"><p style="text-align:center">Proposed Framework</p></h2>
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <img src="static/images/framework_V2.png" alt="System diagram of our proposed framework.">
+          <img src="static/images/framework.png" alt="System diagram of our proposed framework.">
           <p>
             The Figure shows proposed system architecture, where IDMP takes as input the depth sensor's data and pose. These inputs are used to generate the local Frustum Field which determines the implicit semantics of the scene and is then used to fuse the new observation with the global GPDF. Our RMP policy queries distance and gradient information from the fused global GPDF to generate accelerations which are passed to a controller for execution on the robot.
             The key aspect of the IDMP framework is that it uses a Frustrum Field to fuse and identify the dynamic regions locally before passing the information to the Fused Field that contains the global information. 
